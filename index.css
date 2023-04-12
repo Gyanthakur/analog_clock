@@ -1,0 +1,69 @@
+#clockContainer{
+    position: relative;
+    background-color: red;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+}
+#hour, #minute, #second, #dot{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#hour{
+    width: 1%;
+    height: 24%;
+    top: 25.5%;
+    background-color: red;
+    left: 49.3%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+    
+}
+#minute{
+    width: 1%;
+    height: 28%;
+    top: 22.2%;
+    background-color: deepskyblue;
+    left: 49.3%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+    
+}
+#second{
+    width:1%;
+    height: 30%;
+    top: 19.5%;
+    background-color: rgb(18, 203, 83);
+    left: 49.3%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+   
+   
+} 
+.deepak{
+    border: 2px solid red;
+    background-color: aqua;
+    font-family: cursive;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 3px;
+    padding: 24px;
+    
+    
+}
+/* #dot{
+    background: black;
+    border-radius: 20px;
+    width: 6%;
+    height: 6%;
+    top: 49.5%;
+    left: 48.5%;
+
+} */
